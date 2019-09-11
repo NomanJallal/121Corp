@@ -7,3 +7,8 @@
 	path = humanytek-team/project_default_stages
 	url = git@github.com:humanytek-team/project_default_stages.git
 	branch = master
+
+[submodule "humanytek-team/project_unique_name"]
+	path = humanytek-team/project_unique_name
+	url = git@github.com:humanytek-team/project_unique_name.git
+	branch = master
