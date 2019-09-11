@@ -1,0 +1,4 @@
+[submodule "humanytek-team/project_privacy_enforcer"]
+	path = humanytek-team/project_privacy_enforcer
+	url = git@github.com:humanytek-team/project_privacy_enforcer.git
+	branch = master
