@@ -2,3 +2,8 @@
 	path = humanytek-team/project_privacy_enforcer
 	url = git@github.com:humanytek-team/project_privacy_enforcer.git
 	branch = master
+
+[submodule "humanytek-team/project_default_stages"]
+	path = humanytek-team/project_default_stages
+	url = git@github.com:humanytek-team/project_default_stages.git
+	branch = master
