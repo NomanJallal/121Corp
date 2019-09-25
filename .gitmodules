@@ -17,3 +17,8 @@
 	path = humanytek-team/project_task_types
 	url = git@github.com:humanytek-team/project_task_types.git
 	branch = master
+
+[submodule "humanytek-team/121c"]
+	path = humanytek-team/121c
+	url = git@github.com:humanytek-team/121c.git
+	branch = master
