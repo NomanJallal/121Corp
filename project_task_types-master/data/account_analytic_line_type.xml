@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="account_analytic_line_type_DS" model="account.analytic.line.type">
+        <field name="code">DS</field>
+        <field name="description">Design</field>
+    </record>
+    <record id="account_analytic_line_type_TL" model="account.analytic.line.type">
+        <field name="code">TL</field>
+        <field name="description">Team Lead</field>
+    </record>
+    <record id="account_analytic_line_type_PP" model="account.analytic.line.type">
+        <field name="code">PP</field>
+        <field name="description">PrePress</field>
+    </record>
+    <record id="account_analytic_line_type_AE" model="account.analytic.line.type">
+        <field name="code">AE</field>
+        <field name="description">Account Executive</field>
+    </record>
+    <record id="account_analytic_line_type_CR" model="account.analytic.line.type">
+        <field name="code">CR</field>
+        <field name="description">Creative director</field>
+    </record>
+    <record id="account_analytic_line_type_ART" model="account.analytic.line.type">
+        <field name="code">ART</field>
+        <field name="description">Art direction</field>
+    </record>
+    <record id="account_analytic_line_type_ILL" model="account.analytic.line.type">
+        <field name="code">ILL</field>
+        <field name="description">Ilustration</field>
+    </record>
+    <record id="account_analytic_line_type_BE" model="account.analytic.line.type">
+        <field name="code">BE</field>
+        <field name="description">Bench</field>
+    </record>
+    <record id="account_analytic_line_type_REN" model="account.analytic.line.type">
+        <field name="code">REN</field>
+        <field name="description">Render</field>
+    </record>
+    <record id="account_analytic_line_type_ANI" model="account.analytic.line.type">
+        <field name="code">ANI</field>
+        <field name="description">Video Animation</field>
+    </record>
+    <record id="account_analytic_line_type_CGI" model="account.analytic.line.type">
+        <field name="code">CGI</field>
+        <field name="description">CGI</field>
+    </record>
+    <record id="account_analytic_line_type_ED" model="account.analytic.line.type">
+        <field name="code">ED</field>
+        <field name="description">Video Edition</field>
+    </record>
+    <record id="account_analytic_line_type_COPY" model="account.analytic.line.type">
+        <field name="code">COPY</field>
+        <field name="description">Copy</field>
+    </record>
+    <record id="account_analytic_line_type_INC" model="account.analytic.line.type">
+        <field name="code">INC</field>
+        <field name="description">Incidence</field>
+    </record>
+    <record id="account_analytic_line_type_PPT" model="account.analytic.line.type">
+        <field name="code">PPT</field>
+        <field name="description">Power Point</field>
+    </record>
+    <record id="account_analytic_line_type_COO" model="account.analytic.line.type">
+        <field name="code">COO</field>
+        <field name="description">Coordination</field>
+    </record>
+    <record id="account_analytic_line_type_WEB" model="account.analytic.line.type">
+        <field name="code">WEB</field>
+        <field name="description">Web Programmer</field>
+    </record>
+    <record id="account_analytic_line_type_TR" model="account.analytic.line.type">
+        <field name="code">TR</field>
+        <field name="description">Trainning</field>
+    </record>
+</odoo>
