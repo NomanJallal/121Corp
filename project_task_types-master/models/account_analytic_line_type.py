@@ -6,6 +6,7 @@ class AccountAnalyticLineType(models.Model):
 
     name = fields.Char(
         compute='_get_name',
+        store=True,
     )
     code = fields.Char(
         required=True,
