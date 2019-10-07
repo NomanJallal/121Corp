@@ -37,3 +37,8 @@
 	path = humanytek-team/project_follower_custom_archive
 	url = git@github.com:humanytek-team/project_follower_custom_archive.git
 	branch = master
+
+[submodule "humanytek-team/project_task_record_by_user"]
+	path = humanytek-team/project_task_record_by_user
+	url = git@github.com:humanytek-team/project_task_record_by_user.git
+	branch = master
