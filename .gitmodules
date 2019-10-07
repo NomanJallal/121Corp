@@ -47,3 +47,8 @@
 	path = humanytek-team/proyect_task_log_reminder
 	url = git@github.com:humanytek-team/proyect_task_log_reminder.git
 	branch = master
+
+[submodule "humanytek-team/sale_order_add_po"]
+	path = humanytek-team/sale_order_add_po
+	url = git@github.com:humanytek-team/sale_order_add_po.git
+	branch = master
