@@ -32,3 +32,8 @@
 	path = humanytek-team/project_eta
 	url = git@github.com:humanytek-team/project_eta.git
 	branch = master
+
+[submodule "humanytek-team/project_follower_custom_archive"]
+	path = humanytek-team/project_follower_custom_archive
+	url = git@github.com:humanytek-team/project_follower_custom_archive.git
+	branch = master
