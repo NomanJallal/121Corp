@@ -22,3 +22,8 @@
 	path = humanytek-team/121c
 	url = git@github.com:humanytek-team/121c.git
 	branch = master
+
+[submodule "humanytek-team/project_follower_from_task"]
+	path = humanytek-team/project_follower_from_task
+	url = git@github.com:humanytek-team/project_follower_from_task.git
+	branch = master
