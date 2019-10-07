@@ -27,3 +27,8 @@
 	path = humanytek-team/project_follower_from_task
 	url = git@github.com:humanytek-team/project_follower_from_task.git
 	branch = master
+
+[submodule "humanytek-team/project_eta"]
+	path = humanytek-team/project_eta
+	url = git@github.com:humanytek-team/project_eta.git
+	branch = master
