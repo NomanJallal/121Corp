@@ -6,6 +6,5 @@ class AccountAnalyticLine(models.Model):
 
     line_type_id = fields.Many2one(
         comodel_name='account.analytic.line.type',
-        required=True,
         string='Type'
     )

@@ -6,7 +6,7 @@
     <field name="inherit_id" ref="hr_timesheet.view_task_form2_inherited"/>
     <field name="arch" type="xml">
         <xpath expr="//field[@name='timesheet_ids']//field[@name='name']" position="before">
-            <field name="line_type_id"/>
+            <field name="line_type_id" required="1"/>
         </xpath>
     </field>
 </record>
