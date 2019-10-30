@@ -57,3 +57,8 @@
 	path = humanytek-team/sale_remove_product_details
 	url = git@github.com:humanytek-team/sale_remove_product_details.git
 	branch = master
+
+[submodule "humanytek-team/account_rename_partner"]
+	path = humanytek-team/account_rename_partner
+	url = git@github.com:humanytek-team/account_rename_partner.git
+	branch = 12.0
