@@ -7,3 +7,8 @@
 	path = humanytek-team/sale_order_show_payments
 	url = git@github.com:humanytek-team/sale_order_show_payments.git
 	branch = 12.0
+
+[submodule "humanytek-team/account_rename_partner"]
+	path = humanytek-team/account_rename_partner
+	url = git@github.com:humanytek-team/account_rename_partner.git
+	branch = 12.0
