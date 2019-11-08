@@ -12,3 +12,8 @@
 	path = humanytek-team/account_rename_partner
 	url = git@github.com:humanytek-team/account_rename_partner.git
 	branch = 12.0
+
+[submodule "humanytek-team/account_third_parties"]
+	path = humanytek-team/account_third_parties
+	url = git@github.com:humanytek-team/account_third_parties.git
+	branch = 12.0
