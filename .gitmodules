@@ -17,3 +17,8 @@
 	path = humanytek-team/account_third_parties
 	url = git@github.com:humanytek-team/account_third_parties.git
 	branch = 12.0
+
+[submodule "humanytek-team/proyect_task_log_reminder"]
+	path = humanytek-team/proyect_task_log_reminder
+	url = git@github.com:humanytek-team/proyect_task_log_reminder.git
+	branch = master
