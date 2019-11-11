@@ -37,3 +37,8 @@
 	path = humanytek-team/project_follower_from_task
 	url = git@github.com:humanytek-team/project_follower_from_task.git
 	branch = master
+
+[submodule "humanytek-team/sale_order_add_po"]
+	path = humanytek-team/sale_order_add_po
+	url = git@github.com:humanytek-team/sale_order_add_po.git
+	branch = master
