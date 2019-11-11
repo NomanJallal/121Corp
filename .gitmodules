@@ -27,3 +27,8 @@
 	path = humanytek-team/project_follower_custom_archive
 	url = git@github.com:humanytek-team/project_follower_custom_archive.git
 	branch = master
+
+[submodule "humanytek-team/sale_remove_product_details"]
+	path = humanytek-team/sale_remove_product_details
+	url = git@github.com:humanytek-team/sale_remove_product_details.git
+	branch = master
