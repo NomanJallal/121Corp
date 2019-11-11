@@ -22,3 +22,8 @@
 	path = humanytek-team/proyect_task_log_reminder
 	url = git@github.com:humanytek-team/proyect_task_log_reminder.git
 	branch = master
+
+[submodule "humanytek-team/project_follower_custom_archive"]
+	path = humanytek-team/project_follower_custom_archive
+	url = git@github.com:humanytek-team/project_follower_custom_archive.git
+	branch = master
