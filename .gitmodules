@@ -48,7 +48,3 @@
 	url = git@github.com:humanytek-team/project_task_record_by_user.git
 	branch = master
 
-[submodule "humanytek-team2/sale_order_add_po"]
-	path = humanytek-team2/sale_order_add_po
-	url = git@github.com:humanytek-team/sale_order_add_po.git
-	branch = master
