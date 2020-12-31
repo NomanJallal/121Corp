@@ -66,3 +66,7 @@
 	path = humanytek-team/project_unique_name
 	url = git@github.com:humanytek-team/project_unique_name.git
 	branch = 13.0
+[submodule "vendor-bills"]
+	path = vendor-bills
+	url = git@git.vauxoo.com:vauxoo/vendor-bills.git
+	branch = 13.0
