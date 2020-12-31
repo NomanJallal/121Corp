@@ -58,3 +58,11 @@
 	path = humanytek-team/admin_fee
 	url = git@github.com:humanytek-team/admin_fee.git
 	branch = 12.0
+[submodule "humanytek-team/project_task_types"]
+	path = humanytek-team/project_task_types
+	url = git@github.com:humanytek-team/project_task_types.git
+	branch = 13.0
+[submodule "humanytek-team/project_unique_name"]
+	path = humanytek-team/project_unique_name
+	url = git@github.com:humanytek-team/project_unique_name.git
+	branch = 13.0
