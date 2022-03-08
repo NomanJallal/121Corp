@@ -80,3 +80,6 @@
 [submodule "humanytek-team/restrict_save_as_new_template"]
 	path = humanytek-team/restrict_save_as_new_template
 	url = git@github.com:humanytek-team/restrict_save_as_new_template.git
+[submodule "humanytek-team/required_name_in_hr_leave"]
+	path = humanytek-team/required_name_in_hr_leave
+	url = git@github.com:humanytek-team/required_name_in_hr_leave.git
