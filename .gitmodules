@@ -77,3 +77,6 @@
 [submodule "humanytek-team/hr_leave_archive"]
 	path = humanytek-team/hr_leave_archive
 	url = git@github.com:humanytek-team/hr_leave_archive.git
+[submodule "humanytek-team/restrict_save_as_new_template"]
+	path = humanytek-team/restrict_save_as_new_template
+	url = git@github.com:humanytek-team/restrict_save_as_new_template.git
