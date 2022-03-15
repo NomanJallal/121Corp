@@ -83,3 +83,6 @@
 [submodule "humanytek-team/required_name_in_hr_leave"]
 	path = humanytek-team/required_name_in_hr_leave
 	url = git@github.com:humanytek-team/required_name_in_hr_leave.git
+[submodule "humanytek-team/crm_contact_delivery"]
+	path = humanytek-team/crm_contact_delivery
+	url = git@github.com:humanytek-team/crm_contact_delivery.git
