@@ -86,3 +86,6 @@
 [submodule "humanytek-team/crm_contact_delivery"]
 	path = humanytek-team/crm_contact_delivery
 	url = git@github.com:humanytek-team/crm_contact_delivery.git
+[submodule "humanytek-team/sale_last_update_amount"]
+	path = humanytek-team/sale_last_update_amount
+	url = git@github.com:humanytek-team/sale_last_update_amount
