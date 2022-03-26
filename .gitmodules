@@ -89,3 +89,6 @@
 [submodule "humanytek-team/sale_last_update_amount"]
 	path = humanytek-team/sale_last_update_amount
 	url = git@github.com:humanytek-team/sale_last_update_amount
+[submodule "humanytek-team/sale_custom_tags"]
+	path = humanytek-team/sale_custom_tags
+	url = git@github.com:humanytek-team/sale_custom_tags
