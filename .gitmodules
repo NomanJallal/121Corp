@@ -74,3 +74,6 @@
 	path = planning_slot_department
 	url = git@github.com:humanytek-team/planning_slot_department.git
 	branch = 13.0
+[submodule "humanytek-team/crm_in_contacts"]
+	path = humanytek-team/crm_in_contacts
+	url = https://github.com/humanytek-team/crm_in_contacts
