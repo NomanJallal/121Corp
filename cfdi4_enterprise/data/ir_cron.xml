@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+
+        <record id="ir_cron_download_xsd_files_4_0" model="ir.cron">
+            <field name="name">Download XSD files to CFDI 4.0</field>
+            <field name="model_id" ref="account.model_res_company"/>
+            <field name="state">code</field>
+            <field name="code">
+    env['res.company']._load_xsd_attachments_v4()
+            </field>
+            <field name="user_id" ref="base.user_root"/>
+            <field name="interval_number">1</field>
+            <field name="interval_type">months</field>
+            <field name="numbercall">1</field>
+            <field name="doall" eval="True"/>
+        </record>
+
+     </data>
+</odoo>
