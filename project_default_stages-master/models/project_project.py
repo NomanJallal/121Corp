@@ -1,10 +1,15 @@
-from odoo import models, fields
+from odoo import fields, models
+
 
 class ProjectProject(models.Model):
-    _inherit = 'project.project'
-    
+    _inherit = "project.project"
+
     def _get_all_types(self):
-        return self.env['project.task.type'].search([], limit=5)
+        return self.env["project.task.type"].search(
+            [],
+            order="sequence",
+            limit=5,
+        )
 
     type_ids = fields.Many2many(
         string="Tasks Stages",
