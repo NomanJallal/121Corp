@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_account_invoice_supplier_form">
+        <field name="name">account.move.supplier.form</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/group//group[last()]" position="inside">
+                <label for="l10n_mx_edi_cfdi_uuid"
+                    attrs="{'invisible': ['|', ('state', 'not in', ('posted', 'cancel')), ('move_type', 'not in', ['in_invoice', 'in_refund'])]}"/>
+                <div class="o_row" attrs="{'invisible': ['|', ('state', 'not in', ('posted', 'cancel')), ('move_type', 'not in', ['in_invoice', 'in_refund'])]}">
+                    <field name="l10n_mx_edi_cfdi_uuid" readonly="True"/>
+                </div>
+                <label for="l10n_mx_edi_sat_status"
+                       attrs="{'invisible': ['|', ('state', 'not in', ('posted', 'cancel')), ('move_type', 'not in', ['in_invoice', 'in_refund'])]}"/>
+                <div class="o_row"
+                     attrs="{'invisible': ['|', ('state', 'not in', ('posted', 'cancel')), ('move_type', 'not in', ['in_invoice', 'in_refund'])]}">
+                    <field name="l10n_mx_edi_sat_status"/>
+                    <button name="l10n_mx_edi_update_sat_status" type="object"
+                            string="Retry" class="oe_link"
+                            groups="account.group_account_invoice"
+                            attrs="{'invisible': ['|', ('state', 'not in', ('posted', 'cancel')), ('move_type', 'not in', ['in_invoice', 'in_refund'])]}"/>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="xunnel_xml_facet" model="documents.facet">
+        <field name="name">SAT</field>
+        <field name="sequence">1</field>
+        <field name="folder_id" ref="documents.documents_finance_folder"/>
+    </record>
+    <record id="without_invoice" model="documents.tag">
+        <field name="name">Without Invoice</field>
+        <field name="facet_id" ref="xunnel_xml_facet"/>
+        <field name="sequence">98</field>
+    </record>
+    <record id="ingreso_tag" model="documents.tag">
+        <field name="name">Entry</field>
+        <field name="facet_id" ref="xunnel_xml_facet"/>
+        <field name="sequence">99</field>
+    </record>
+    <record id="egreso_tag" model="documents.tag">
+        <field name="name">Egress</field>
+        <field name="facet_id" ref="xunnel_xml_facet"/>
+        <field name="sequence">99</field>
+    </record>
+    <record id="translado_tag" model="documents.tag">
+        <field name="name">Transfer</field>
+        <field name="facet_id" ref="xunnel_xml_facet"/>
+        <field name="sequence">100</field>
+    </record>
+    <record id="reception_tag" model="documents.tag">
+        <field name="name">Reception</field>
+        <field name="facet_id" ref="xunnel_xml_facet"/>
+        <field name="sequence">101</field>
+    </record>
+    <record id="nomina_tag" model="documents.tag">
+        <field name="name">Payroll</field>
+        <field name="facet_id" ref="xunnel_xml_facet"/>
+        <field name="sequence">102</field>
+    </record>
+    <record id="with_invoice" model="documents.tag">
+        <field name="name">With Invoice</field>
+        <field name="facet_id" ref="xunnel_xml_facet"/>
+        <field name="sequence">103</field>
+    </record>
+</odoo>

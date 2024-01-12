@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<odoo>
+    <record model="ir.ui.view" id="view_account_payment_form_inh_l10n_mx_check_cfdi">
+        <field name="name">view.account.payment.form.inh.l10n.mx.check.cfdi</field>
+        <field name="model">account.payment</field>
+        <field name="inherit_id" ref="l10n_mx_edi.view_account_payment_form_inh_l10n_mx"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='l10n_mx_edi_payment_method_id']" position="attributes">
+                <attribute name="attrs">{'invisible': [('payment_type', '=', 'transfer')]}</attribute>
+            </xpath>
+            <xpath expr="//field[@name='l10n_mx_edi_origin']" position="attributes">
+                <attribute name="attrs">{'invisible': [('payment_type', '=', 'transfer')]}</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>

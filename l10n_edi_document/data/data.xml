@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <!-- Workflow Rules -->
+
+    <record id="edi_document_rule" model="documents.workflow.rule" forcecreate="0">
+        <field name="name">Create EDI document</field>
+        <field name="create_model">l10n_edi_document.edi.document</field>
+        <field name="domain_folder_id" ref="documents.documents_finance_folder"/>
+    </record>
+
+    <record id="documents_replace_inbox_edi_document" model="documents.workflow.action" forcecreate="0">
+        <field name="workflow_rule_id" ref="edi_document_rule"/>
+        <field name="action">replace</field>
+        <field name="facet_id" ref="documents.documents_finance_status"/>
+        <field name="tag_id" ref="documents.documents_finance_status_tc"/>
+    </record>
+
+    <record id="documents_add_documents_edi_document" model="documents.workflow.action" forcecreate="0">
+        <field name="workflow_rule_id" ref="edi_document_rule"/>
+        <field name="action">add</field>
+        <field name="tag_id" ref="documents.documents_finance_documents_bill"/>
+    </record>
+
+    <!-- New Folder -->
+    <record id="documents_incorrect_edi_folder" model="documents.folder">
+        <field name="name">Incorrect EDI Documents</field>
+        <field name="sequence">100</field>
+    </record>
+    <record id="documents_edi_not_found_folder" model="documents.folder">
+        <field name="name">Edi Documents not found folder</field>
+        <field name="sequence">100</field>
+    </record>
+</odoo>

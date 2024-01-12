@@ -1,0 +1,78 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#     * l10n_mx_edi_uuid
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-10 15:17+0000\n"
+"PO-Revision-Date: 2022-06-10 15:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_mx_edi_uuid
+#: model:ir.model,name:l10n_mx_edi_uuid.model_ir_attachment
+msgid "Attachment"
+msgstr "Archivo adjunto"
+
+#. module: l10n_mx_edi_uuid
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_account_payment__display_name
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_ir_attachment__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: l10n_mx_edi_uuid
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_account_bank_statement_line__l10n_mx_edi_cfdi_uuid
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_account_move__l10n_mx_edi_cfdi_uuid
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_account_payment__l10n_mx_edi_cfdi_uuid
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_ir_attachment__l10n_mx_edi_cfdi_uuid
+msgid "Fiscal Folio"
+msgstr "Folio Fiscal"
+
+#. module: l10n_mx_edi_uuid
+#: model:ir.model.fields,help:l10n_mx_edi_uuid.field_account_bank_statement_line__l10n_mx_edi_cfdi_uuid
+#: model:ir.model.fields,help:l10n_mx_edi_uuid.field_account_move__l10n_mx_edi_cfdi_uuid
+msgid "Folio in electronic invoice, is returned by SAT when send to stamp."
+msgstr ""
+"Folio en facturación electrónica, es devuelto por SAT cuando se envía a "
+"firmar."
+
+#. module: l10n_mx_edi_uuid
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_account_payment__id
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_ir_attachment__id
+msgid "ID"
+msgstr "Identificación"
+
+#. module: l10n_mx_edi_uuid
+#: model:ir.model,name:l10n_mx_edi_uuid.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_mx_edi_uuid
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_account_move____last_update
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_account_payment____last_update
+#: model:ir.model.fields,field_description:l10n_mx_edi_uuid.field_ir_attachment____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: l10n_mx_edi_uuid
+#: model:ir.model,name:l10n_mx_edi_uuid.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: l10n_mx_edi_uuid
+#: code:addons/l10n_mx_edi_uuid/models/account_invoice.py:0
+#, python-format
+msgid ""
+"UUID duplicated %s for following invoices:\n"
+"%s\n"
+msgstr ""
+"UUID duplicado %s para las siguientes facturas:\n"
+"%s\n"
