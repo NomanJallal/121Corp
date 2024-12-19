@@ -1,7 +1,4 @@
-#[submodule "humanytek-team/121c"]
-#	path = humanytek-team/121c
-#	url = git@github.com:humanytek-team/121c.git
-#	branch = master
+
 
 [submodule "humanytek-team/sale_order_show_payments"]
 	path = humanytek-team/sale_order_show_payments
